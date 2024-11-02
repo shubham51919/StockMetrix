@@ -1,0 +1,101 @@
+.home {
+    background: url('../assets/bgHome.svg');
+    background-position: right;
+    background-size: cover;
+}
+
+.t-bg-black {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 16px 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.bg-main {
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 16px 14px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.row-main {
+    cursor: pointer;
+    padding: 16px 0px 8px 0px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.smooth-trans {
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+    transition: max-height 1s;
+
+    max-height: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.inner {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.wrapper.is-open .inner {
+    max-height: 100%;
+}
+
+.entries-container {
+    height: 65px;
+    /* Initially hidden */
+    overflow: hidden;
+    /* Prevents scrollbars when content is hidden */
+    transition: height 0.8s ease-out;
+    /* Smooth height transition */
+}
+
+.entries-container.expanded {
+    /* height: 500px; */
+    /* Example height when expanded - adjust as needed */
+}
+
+.rdrDateRangePickerWrapper {
+    background-color: rgb(0, 0, 0, 0.2) !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 96%;
+    width: fit-content;
+    margin: 1rem;
+    border: 1px solid white;
+}
+
+.rdrCalendarWrapper,
+.rdrDefinedRangesWrapper,
+.rdrDateDisplay,
+.rdrDateDisplayWrapper,
+.rdrDateDisplayItem input,
+.rdrInputRangeInput {
+    background-color: rgb(0, 0, 0, 0.8) !important;
+
+}
+
+.rdrDefinedRangesWrapper {
+    width: 400px !important;
+}
+
+.rdrDayNumber span {
+    color: white !important;
+}

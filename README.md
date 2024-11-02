@@ -63,3 +63,10 @@ npm run dev
 - Built a responsive UI with Tailwind CSS for seamless desktop/mobile experience
 - Created a scalable pagination system for handling large datasets
 - Implemented real-time search with optimized performance
+
+## Technical Insights
+- Implemented an efficient search algorithm using custom indexing for quick stock lookups
+- Utilized React's useMemo and debouncing for performance optimization
+- Built a responsive UI with Tailwind CSS for seamless desktop/mobile experience
+- Created a scalable pagination system for handling large datasets
+- Implemented real-time search with optimized performance
