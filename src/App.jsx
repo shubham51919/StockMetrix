@@ -5,8 +5,6 @@ import './App.css'
 import { Context } from './Context/Context.jsx';
 import CandleChart from './Components/CandleChart';
 import Navbar from './Components/Navbar';
-import 'react-date-range/dist/styles.css';
-import 'react-date-range/dist/theme/default.css'
 import Home from './Pages/Home';
 import {
   BrowserRouter as Router,
@@ -15,6 +13,8 @@ import {
   Navigate,
   useLocation,
 } from "react-router-dom";
+import 'react-date-range/dist/styles.css';
+import 'react-date-range/dist/theme/default.css'
 
 function App() {
 
