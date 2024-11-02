@@ -2,6 +2,8 @@
 
 StockMetrix is a powerful web application that enables users to search, visualize, and analyze stock market data. Built with modern web technologies, it provides an intuitive interface for investors to make informed decisions.
 
+## Live Demo
+Check out the live demo of the project here: [Live Demo](https://stockmetrix.netlify.app)
 
 <img width="1436" alt="StockMatrix" src="https://github.com/user-attachments/assets/bc2c998c-42ab-4808-8bed-a191108ce2d8">
 
